@@ -9,7 +9,7 @@ const schoolDetailsSchema = new mongoose.Schema({
     medium: {
         type: String,
         required: true,
-        enum:['English', 'Hindi']
+        enum:['English', 'Hindi', 'Gujarati']
     },
     classCategory: {
         type: String,

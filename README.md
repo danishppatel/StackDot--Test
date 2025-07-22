@@ -28,9 +28,27 @@
     - departments
     - courses
 
+## Visual Representation:
+![ER_DIAGRAM](images/ER_Diagram.png)
+
 
 ### API EndPoints:
 
 #### 1. POST /api/institute/create -  create Institute
 
-#### 2. GET /api/institute/:id -  get all Institute
+#### 2. GET /api/institute/:id - Institute By Id
+
+## Application Flow :
+    - Client request --> Router(routes based on request) --> Controller(handle api EndPoints) --> Services(actual Logic) - return back response
+
+## Database Credentials: (create  .env file)
+    - PORT : YOUR_PORT
+    - MONGO_URI : YOUR_MONGO_URI
+
+## Clone Repository:
+    git clone https://github.com/danishppatel/StackDot--Test.git
+
+## Start Application:
+    - npm install
+    - nodemon server.js
+  

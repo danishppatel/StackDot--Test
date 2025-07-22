@@ -2,6 +2,20 @@ Create a Institute:
 
 // POST: 
 http://localhost:3000/api/institute/create
+
+{
+    "name" : "Shri J.M.Chaudhary Sarvajanik Vidhalaya",
+    "type": "School",
+    "location": "Mehsana",
+    "schoolDetails": {
+        "board": "CBSE",
+        "medium": "Gujarati",
+        "classCategory": "Higher Secondary",
+        "standard": "12th",
+        "subjects": ["Maths", "Physics", "Chemistry"]
+    }
+}
+
 {
     "name" : "Ahemedabad University",
     "type": "College",
