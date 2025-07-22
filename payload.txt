@@ -1,0 +1,60 @@
+Create a Institute:
+
+// POST: 
+http://localhost:3000/api/institute/create
+{
+    "name" : "Ahemedabad University",
+    "type": "College",
+    "location": "Ahemedabad",
+    "collegeDetails": {
+        "departments": ["Computer Science", "Information & Technology", "Electronics and Communication","Mechanical"],
+        "courses": ["B.Tech", "M.Tech"]
+    }
+}
+
+{
+    "name" : "Tiny Tots",
+    "type": "Playhouse",
+    "location": "Vadodara",
+    "playHouseDetails": {
+        "ageGroups": ["2-4", "4-6"]
+    }
+}
+
+{
+    "name" : "Apex JEE Academy",
+    "type": "Competitive Exam Center",
+    "location": "Ahemedabad",
+    "competitiveExamDetails": {
+        "examType": "JEE"
+    }
+}
+
+
+
+// GET: 
+
+response:
+
+{
+    "_id": "687f28a5d15caebaf2c0e647",
+    "name": "Ahemedabad University",
+    "type": "College",
+    "location": "Ahemedabad",
+    "collegeDetails": {
+        "departments": [
+            "Computer Science",
+            "Information & Technology",
+            "Electronics and Communication",
+            "Mechanical"
+        ],
+        "courses": [
+            "B.Tech",
+            "M.Tech"
+        ],
+        "_id": "687f28a5d15caebaf2c0e648"
+    },
+    "createdAt": "2025-07-22T05:59:01.425Z",
+    "updatedAt": "2025-07-22T05:59:01.425Z",
+    "__v": 0
+}
